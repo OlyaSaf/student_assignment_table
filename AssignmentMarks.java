@@ -64,8 +64,8 @@ public class AssignmentMarks {
         return markToGrade(mark);
     }
 
-    // reterns average grade
-    public String getAverageGrade(int assignmentNumber) {
+    // returns average grade
+    public String getAverageGrade() {
         int averageMark = getAverageMark();
         return markToGrade(averageMark);
 
